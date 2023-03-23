@@ -11,7 +11,7 @@ DEFAULT_VALUES = {
     "port" : "6666",
     "name" : "foo"
 }
-
+ 
 class BasicGUI:
     """
     GUI for a chat client. Not so secured.
