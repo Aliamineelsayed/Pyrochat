@@ -17,7 +17,7 @@ class ChatClient:
         self._running = False
         self._callback = None
         self._name = ""
-        self._log = logging.getLogger(self.__class__.__name__)
+        self._log = logging.getLogger(self .__class__.__name__)
 
     def start(self, callback:object)->None:
         self._daemon = Daemon()
