@@ -22,7 +22,7 @@ class BasicGUI:
         self._callback = None
         self._log = logging.getLogger(self.__class__.__name__)
 
-
+ 
     def _create_chat_window(self)->None:
         # chat windows
         # known bug : the add_input_text do not display message in a user friendly way
