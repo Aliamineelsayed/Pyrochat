@@ -7,6 +7,7 @@ from fernet_gui import FernetGUI
 
 TTL = 30
 
+
 class TimeFernetGUI(FernetGUI):
     def encrypt(self, message):
         '''
