@@ -12,6 +12,7 @@ from cryptography.hazmat.primitives import padding, hashes
 import base64
 
 
+
 DM_SIZE= 16
 NB_ITERATIONS= 100000
 SIZE_BLOCK = 128
