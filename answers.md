@@ -69,5 +69,6 @@ Il est nécessaire de réduire le temps de sécurisation des messages dans la pr
 
 Regard critique
 
+Il existe une vulnérabilité potentielle dans la méthode de chiffrement symétrique qui utilise une clé générée à partir d'un mot de passe, qui pourrait être exploitée par un attaquant qui peut utiliser une attaque par force brute pour déchiffrer les données. De plus, un problème dans le code peut permettre à un attaquant d'envoyer des données malveillantes qui peuvent être traitées par le serveur comme des données légitimes, il est donc important que le serveur vérifie l'authenticité du message avant de le déchiffrer pour éviter cette vulnérabilité de sécurité.
 
 
