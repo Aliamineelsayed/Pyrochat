@@ -37,10 +37,10 @@ class FernetGUI(CipheredGUI):
         '''
         chiffre le message avec Fernet
         '''
-        cipher_suite = Fernet(self.key)
+        cipher_s = Fernet(self.key)
         message_bytes = bytes(message,'utf-8')
-        cipher_text = cipher_suite.encrypt(message_bytes)
-        return cipher_text
+    
+        return cipher_s.encrypt(message_bytes)
 
     def decrypt(self, message) -> str :
         message = base64.b64decode(message['data']) 
